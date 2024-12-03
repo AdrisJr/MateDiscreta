@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+        <title>Algoritmos e Grafos</title>   
+        <script src="./script.js"></script>     
+    </head>
+    <main>
+        <div class="container">
+            <label for="grafoQtd">Quantos grafos deseja criar?</label>
+            <input type="number" id="grafoQtd" min="1" placeholder="Digite um número">
+            <button onclick="criarTabelaGrafos()">Matriz</button>
+            <button onclick="criarListaGrafos()">Lista de Incidência</button>
+            <button onclick="criarGrafo()">Gerar Grafo</button>
+        </div>  
+        <div id="tableContainer"></div>
+        <div id="listContainer"></div>
+        <pre id="grafo"></pre>
+        
+        <pre id="resposta"></pre>
+    </main>
+</html>

@@ -1,0 +1,47 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+.container {
+    margin: 20px auto;
+    max-width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #3840f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
